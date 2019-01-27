@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Platzi Video</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="playlist-area">
+        <div class="logo">
+          <img src="images/platzi_logo.png" alt="">
+          <p class="platzi-music">Video</p>
+        </div>
+        <div class="container my-playlist">
+          <div class="title">
+            <h3>Mi Playlist</h3>
+          </div>
+          <ol class="playlist-list">
+            <li><a class="playlist-itemLink" href="#">All i want - A Day </a></li>
+            <li><a class="playlist-itemLink" href="#">Have faith in me - A Day to Remember</a></li>
+            <li><a class="playlist-itemLink" href="#">Tabaco y Chanel - Bacilos</a></li>
+            <li><a class="playlist-itemLink" href="#">Funcional - Okills</a></li>
+          </ol>
+        </div>
+        <div class="container friends-playlist">
+          <div class="title">
+            <h3>Playlist de amigos</h3>
+          </div>
+
+          <ul class="friends-list">
+            <li class="friend-profile">
+              <div class="avatar">
+                <img src="images/alfredo-avatar.jpeg" alt="">
+              </div>
+              <a href="">
+                Alfredo Rodriguez
+              </a>
+            </li>
+            <li class="friend-profile">
+              <div class="avatar">
+                <img src="images/angel-avatar.jpeg" alt="">
+              </div>
+              <a href="">
+                Angel Gomez
+              </a>
+            </li>
+            <li class="friend-profile">
+              <div class="avatar">
+                <img src="images/oriana-avatar.jpeg" alt="">
+              </div>
+              <a href="">
+                Oriana Salome Peña
+              </a>
+            </li>
+            <li class="friend-profile">
+              <div class="avatar">
+                <img src="images/yrma-avatar.jpg" alt="">
+              </div>
+              <a href="">
+                Yrma Zambrano
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="content-area">
+        <div class="navbar">
+          <form class="search" id="search" action="index.html" method="post">
+            <input class="input-search" type="text" name="name" placeholder="Busca una cancion, artista o amigo">
+            <i class="fas fa-search"></i>
+          </form>
+          <div class="user">
+            <!-- <i class="fas fa-sort-down"></i> -->
+            <div class="avatar">
+              <img src="images/henry-avatar.jpeg" alt="">
+            </div>
+            <a class="profile" href="">Henry L. Garcia </a>
+          </div>
+        </div>
+        <div class="container content-section">
+          <div class="field">
+            <h6 class="field-subtitle">Lo mejor de la semana</h6>
+            <h3 class="field-title">Accion</h3>
+            <div class="recomended-wrapper" id="action">
+              <div class="loader">
+                <img class="img-responsive" src="images/loader.gif" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <h6 class="field-subtitle">Lo mejor de la semana</h6>
+            <h3 class="field-title">Comedia</h3>
+            <div class="recomended-wrapper" id="comedy">
+              <div class="loader">
+                <img class="img-responsive" src="images/loader.gif" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <h6 class="field-subtitle">Lo mejor de la semana</h6>
+            <h3 class="field-title">Romance</h3>
+            <div class="recomended-wrapper" id="drama">
+              <div class="loader">
+                <img class="img-responsive" src="images/loader.gif" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay hidden" id="overlay">
+          <div class="modal" id="modal">
+            <h1>Titulo de la pelicula</h1>
+            <div class="modal-content">
+              <img src="" alt="" width="170" height="256">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="modal-buttons">
+              <button class="btn success" type="button" id="hide-modal" name="button">Cerrar modal</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="featuring hidden" id="featuring">
+
+        </div>
+        <div class="featuring-space hidden" id="featuring-space">
+
+        </div>
+      </div>
+    <script type="text/javascript" src="js/home.js">
+    </script>
+  </body>
+</html>
